@@ -7,10 +7,17 @@ let role = "guest";
 
 function setRole() {
   // Your code here
-}
+  localRole = "admin";
+  console.log(localRole);
+};
 
-function showGlobalRole() {
-  // Your code here
-}
+setRole();
 
-module.exports = { setRole, showGlobalRole, role };
+function showGlobalRole(role) {
+     // Your code here
+    console.log(role);
+ }
+
+
+ showGlobalRole(role);
+// module.exports = { setRole, showGlobalRole, role };
