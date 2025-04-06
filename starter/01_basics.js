@@ -11,5 +11,10 @@ function printStudentName() {
   console.log(student);
 };
 
+printStudentName();
+
+
+
+
 
 module.exports = { printStudentName };
