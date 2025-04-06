@@ -7,8 +7,8 @@ let role = "guest";
 
 function setRole() {
   // Your code here
-  localRole = "admin";
-  console.log(localRole);
+  let role = "admin";
+  console.log(role);
 };
 
 setRole();
